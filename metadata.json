@@ -1,0 +1,6 @@
+{
+  "name": "All-in-One Scraper Pro",
+  "description": "لوحة تحكم احترافية لاستخراج وتحليل بيانات المواقع وتحليل الـ SEO واستخراج الإطارات مع مساعد ذكي ونسخ بنقرة واحدة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

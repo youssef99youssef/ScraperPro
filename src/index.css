@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-main: #0e1117;
+    --color-bg-card: #161b22;
+    --color-bg-metric: #21262d;
+    --color-border: #30363d;
+  }
+
+  body {
+    background-color: #0e1117;
+    color: #e6edf3;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0e1117;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2b323c;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #444d56;
+  }
+}
+
+.mono-font {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Card Styling inspired by modern developer dashboard */
+.st-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.st-card:hover {
+  border-color: #3b434d;
+}
+
+.metric-box {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+}
+
+/* Pulse glow effects */
+.glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.15);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.15);
+}
